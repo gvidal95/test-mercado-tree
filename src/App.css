@@ -1,0 +1,39 @@
+.product_card {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.products_container {
+  display: grid;
+  grid-template-columns: 50px 300px;
+  grid-template-rows: 200px 75px;
+
+}
+
+.product_thumbnail {
+  margin: 10px;
+  max-height: 140px;
+}
+
+.pruduct_list_container {
+  display: flex;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+}
+
+.list_icon {
+  cursor: pointer;
+}
+
+.list_no_expanded > ul {
+  display: none;
+}
+ 
